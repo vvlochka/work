@@ -27,7 +27,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 if not BOT_TOKEN:
     raise SystemExit("❌ BOT_TOKEN не задан")
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "861978537"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1"))
 DEVELOPER_NAME = "Кирюха"
 BOT_LINK = "https://t.me/work_vllw_bot"
 
